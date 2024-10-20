@@ -1,0 +1,16 @@
+{
+  "name": "flightsanssearchmicroservice",
+  "version": "1.0.0",
+  "description": "this is microservices for handling flight CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaibhav Kamble",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}

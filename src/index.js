@@ -1,7 +1,6 @@
 const express = require("express");
 const {PORT} = require("./config/serverConfig")
 const bodyParser = require("body-parser");
-
 const setupAndStartServer=async()=>{
 
     //create express app
@@ -12,6 +11,7 @@ const setupAndStartServer=async()=>{
 
     app.listen(PORT,()=>{
         console.log("Server started at 3000");
+      
     })
 }
 
